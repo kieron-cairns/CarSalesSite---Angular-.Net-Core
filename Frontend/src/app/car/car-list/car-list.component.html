@@ -1,1 +1,5 @@
-<p>property-list works!</p>
+<div class="row">
+  <div *ngFor="let car of cars" class="shadow-lg col-sm-4.5 p-3">
+    <app-car-card [car]="car"></app-car-card>
+  </div>
+</div>

@@ -1,0 +1,28 @@
+
+[
+  {
+  "Id":1,
+  "Make":"BMW",
+  "Model": "1 Series",
+  "Price": 12000
+},
+{
+"Id":2,
+"Make": "Mercades",
+"Model": "A Class",
+"Price": 14000
+},
+{
+  "Id":3,
+  "Make": "Porsche",
+  "Model": "Cayman S",
+  "Price": 28000
+},
+{
+  "Id":4,
+  "Make": "Audi",
+  "Model": "TT",
+  "Price": 15000
+}
+
+]

@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component ({
 
@@ -16,10 +16,7 @@ export class CarCardComponent
 {
   //Static data for now for testing purposes. Data will later be called from DB
 
-  Car: any = {
-    "Id":1,
-    "Make":"BMW",
-    "Model": "1 Series",
-    "Price": 12000
-  }
+  @Input() car : any
+
+
 }

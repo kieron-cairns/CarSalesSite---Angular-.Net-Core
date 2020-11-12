@@ -1,0 +1,57 @@
+
+[
+  {
+  "Id": 1,
+  "SellRent": 1,
+  "Make":"BMW",
+  "Model": "1 Series M Sport",
+  "Price": 12000,
+  "Image": "BMW-1-Series-M-Sport"
+
+},
+{
+"Id": 2,
+"SellRent": 1,
+"Make": "Mercades",
+"Model": "A Class",
+"Price": 14000,
+"Image": "Mercedes-A-Class"
+},
+{
+  "Id": 3,
+  "SellRent": 1,
+  "Make": "Porsche",
+  "Model": "Cayman S",
+  "Price": 28000,
+  "Image": "Porsche-Cayman-S"
+
+},
+{
+  "Id": 4,
+  "SellRent": 1,
+  "Make": "Audi",
+  "Model": "TT",
+  "Price": 15000,
+  "Image": "AUDI-TT"
+
+},
+{
+  "Id": 5,
+  "SellRent": 2,
+  "Make": "Audi",
+  "Model": "A1",
+  "Price": 200,
+  "Image": "AUDI-A1"
+
+},
+{
+  "Id": 6,
+  "SellRent": 2,
+  "Make": "BMW",
+  "Model": "1 Series",
+  "Price": 230,
+  "Image": "BMW-1-Series"
+
+}
+
+]

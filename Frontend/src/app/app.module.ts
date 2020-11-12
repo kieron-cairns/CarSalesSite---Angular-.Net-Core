@@ -11,6 +11,7 @@ import { CarListComponent } from './car/car-list/car-list.component';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { AllCarsService } from './services/all-cars.service';
 import { AddCarComponent } from './car/add-car/add-car.component';
+import { CarDetailComponent } from './car/car-detail/car-detail.component';
 
 //Website routing section
 
@@ -18,10 +19,20 @@ const appRoutes: Routes = [
   //Route to index
   {path: '', component: CarListComponent},
   //Route to add-car page & service
-  {path: 'add-car', component: AddCarComponent}
+  {path: 'add-car', component: AddCarComponent},
+
+  {path: 'rent-car', component: CarListComponent},
+
+  //pass car id to url to display yhe correct car details
+  {path: 'car-detail/:id', component: CarDetailComponent},
+  //if bad url is given, redirect to user to main car list page
+  {path: '**', component: CarListComponent}
+
+
 
 
 ]
+
 
 @NgModule({
   declarations: [
@@ -29,7 +40,8 @@ const appRoutes: Routes = [
     CarCardComponent,
     CarListComponent,
       NavBarComponent,
-      AddCarComponent
+      AddCarComponent,
+      CarDetailComponent
    ],
   imports: [
     BrowserModule,

@@ -9,13 +9,15 @@
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
-        <a class="nav-link" href="/">Buy A Car<span class="sr-only">(current)</span></a>
+        <!--Use router link instead of href so that the complete page does not reload, as ths will reset the application state
+            Also use routerLink exact true so that only exact matching page names will match routerLink page redirect-->
+        <a class="nav-link" [routerLinkActiveOptions]="{exact:true}" routerLinkActive="active" routerLink="/">Buy A Car<span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Sell A Car</a>
+        <a class="nav-link" routerLinkActive="active" routerLink="/add-car">Sell A Car</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">List A Car </a>
+        <a class="nav-link" routerLinkActive="active" routerLink="/rent-car">Rent A Car </a>
       </li>
 
       <li class="nav-item">

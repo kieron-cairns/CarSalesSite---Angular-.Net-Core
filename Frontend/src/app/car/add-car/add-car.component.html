@@ -1,6 +1,29 @@
-<p>
-  add-car works!
-  <!--Add back button-->
-  <!-- bind onBack event from add-car-component-->
-  <button (click)="onBack()" class="btn btn-primary">Back</button>
-</p>
+<div class="card">
+<div class="card-header">
+  Add New Car
+</div>
+<div class="card-body">
+  <form>
+    <div class="form-group col-12">
+      <label for="make">Make</label>
+      <input type="text" class="form-control">
+    </div>
+
+      <div class="form-group col-12">
+        <label for="model">Model</label>
+        <input type="text" class="form-control">
+      </div>
+
+      <div class="form-group col-12">
+        <label for="price">Price</label>
+        <input type="text" class="form-control">
+      </div>
+
+      <div class="form-group col-12">
+        <button type="submit" class="btn btn-primary mr-2">Save</button>
+        <button type="reset" class="btn btn-primary">Cancel</button>
+
+      </div>
+  </form>
+</div>
+</div>
